@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Weighted Tree</title>
+
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+    
+    <!-- script type="text/javascript" src="lib/d3/js/d3.min.js"></script -->
+    <script src="https://d3js.org/d3.v4.min.js"></script>
+	<style>
+
+	text {
+	  font: 10px sans-serif;
+	  text-anchor: middle;
+	}
+
+	</style>
+</head>
+
+<body>
+<section>
+	<input type="file" id="csvFileInput" onchange="handleFiles(this.files)" accept=".csv">
+</section>
+<BR/>
+<section>
+	<a href="template/th_route_data_template.csv">Download template</a>
+
+</section>
+<BR/>
+<section>
+	<svg width="960" height="880"></svg>
+</section>
+	
+
+
+<script>
+	var svg = d3.select("svg"),
+    width = +svg.attr("width");
+
+	var format = d3.format(",d");
+
+	var color = d3.scaleOrdinal(d3.schemeCategory20c);
+
+	var pack = d3.pack()
+	    .size([width, width])
+	    .padding(1.5);
+
+	function getActGrpUsageSummary(routes){
+		var actGrpSummaryArray = [];
+		var actGrps = {};
+		for(var i=0; i<routes.length; i++){
+			var currRoute=routes[i];
+			if(currRoute.CLUE_ACT_GRP_ID){
+				var actGrpId = currRoute.CLUE_ACT_GRP_ID;
+				if(actGrps[actGrpId]){
+					var actGrp = actGrps[actGrpId];
+					actGrp.value++;
+					actGrp.routes.push(currRoute.TH_ROUTE_ID);
+				}else{
+					actGrps[actGrpId]={
+						"CLUE_ACT_GRP_ID" : currRoute.CLUE_ACT_GRP_ID,
+						"GRP_DESC":currRoute.GRP_DESC,
+						"routes" : [currRoute.TH_ROUTE_ID],
+						value : 1
+					}
+					actGrpSummaryArray.push(actGrps[actGrpId]);
+				}
+			}
+			
+		}
+		return actGrpSummaryArray;
+	}
+
+	function loadD3Chart(rotesDumpCSV){
+		var node = svg.selectAll(".node").remove();
+		var routes = d3.csvParse(rotesDumpCSV, function(d) {
+		  //d.value = +d.value;
+		  //if (d.value) return d;
+		  return d;
+		}) ;
+
+		var actGrpUsageSummary = getActGrpUsageSummary(routes);
+
+		  var root = d3.hierarchy({children: actGrpUsageSummary})
+		      .sum(function(d) { return d.value; })
+		      .each(function(d) {
+		      	var id;
+		        if (d.data.CLUE_ACT_GRP_ID) {
+		          d.id = d.data.CLUE_ACT_GRP_ID;
+		          d.package = d.data.value;
+		          d.class = d.data.value;
+		        }
+		      });
+
+		  var node = svg.selectAll(".node")
+		    .data(pack(root).leaves())
+		    .enter().append("g")
+		      .attr("class", "node")
+		      .attr("transform", function(d) { return "translate(" + d.x + "," + d.y + ")"; });
+
+		  node.append("circle")
+		      .attr("id", function(d) { return d.id; })
+		      .attr("r", function(d) { return d.r; })
+		      .style("fill", function(d) { 
+		      	return color(d.data.GRP_DESC); 
+		      });
+
+		  node.append("clipPath")
+		      .attr("id", function(d) { return "clip-" + d.id; })
+		    .append("use")
+		      .attr("xlink:href", function(d) { return "#" + d.id; });
+
+		  node.append("text")
+		      .attr("clip-path", function(d) { return "url(#clip-" + d.id + ")"; })
+		    .selectAll("tspan")
+		    .data(function(d) { return [d]; })
+		    .enter().append("tspan")
+		      .attr("x", 0)
+		      .attr("y", function(d, i, nodes) { return 13 + (i - nodes.length / 2 - 0.5) * 10; })
+		      .text(function(d) { return d.data.GRP_DESC; });
+
+		  node.append("title")
+		      .text(function(d) { 
+		      	return d.data.GRP_DESC
+		      			+"\nGRP_ID: "
+		      			+d.data.CLUE_ACT_GRP_ID
+		      			+"\nCount: " 
+		      			+ format(d.value)
+		      			+"\nRoutes: "
+		      			+ d.data.routes; 
+		      	});
+		
+	}    
+
+	
+
+</script>
+
+
+
+<script>
+    // LOAD CSV
+	function handleFiles(files) {
+      // Check for the various File API support.
+      if (window.FileReader) {
+          // FileReader are supported.
+          getAsText(files[0]);
+      } else {
+          alert('FileReader are not supported in this browser.');
+      }
+    }
+
+    function getAsText(fileToRead) {
+      var reader = new FileReader();
+      // Read file into memory as UTF-8
+      try{      
+	      reader.readAsText(fileToRead);
+	      // Handle errors load
+	      reader.onload = loadHandler;
+	      reader.onerror = errorHandler;
+		}catch(err){
+			alert('Could not load file')
+		}
+      
+    }
+
+    function loadHandler(event) {
+      var csv = event.target.result;
+      console.log("CSV file read successfully"+csv);
+      loadD3Chart(csv);
+    }
+
+    function processFlareData(csv){
+    	loadD3Chart(csv);
+    }
+
+    function errorHandler(evt) {
+      if(evt.target.error.name == "NotReadableError") {
+          alert("Canno't read file !");
+      }
+    }
+
+</script>
+
+
+
+</body>
+
+
+</html>

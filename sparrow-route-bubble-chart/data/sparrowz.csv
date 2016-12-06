@@ -1,0 +1,181 @@
+TH_ID,TH_ROUTE_ID,ROUTE_NODE_SEQ,CLUE_ACT_GRP_ID,ACT_TYPE_CODE_ID,GRP_DESC
+50,1,1,441,1204,Buildings SculptureGPS
+50,1,2,478,1218,Seshadri IyerMCQ
+50,1,3,450,1217,Concrete Jungle SculptureJigsaw
+50,1,4,491,1201,High Court of KarnatakaWord 1
+50,1,5,460,1217,High Court of KarnatakaJigsaw
+50,1,6,472,1205,Queen VictoriaImage
+50,1,7,428,1207,Bamboo GroveSelfie-1
+50,1,8,452,1205,Family SculptureImage
+50,1,9,442,1207,Bull SculptureSelfie
+50,2,1,451,1207,Corn SculptureSelfie
+50,2,2,440,1217,BandstandJigsaw
+50,2,3,472,1205,Queen VictoriaImage
+50,2,4,491,1201,High Court of KarnatakaWord 1
+50,2,5,460,1217,High Court of KarnatakaJigsaw
+50,2,6,449,1205,Concrete Jungle SculptureImage
+50,2,7,478,1218,Seshadri IyerMCQ
+50,2,8,441,1204,Buildings SculptureGPS
+50,2,9,442,1207,Bull SculptureSelfie
+50,3,1,447,1204,Chamarajendra WodeyarGPS
+50,3,2,478,1218,Seshadri IyerMCQ
+50,3,3,450,1217,Concrete Jungle SculptureJigsaw
+50,3,4,491,1201,High Court of KarnatakaWord 1
+50,3,5,460,1217,High Court of KarnatakaJigsaw
+50,3,6,472,1205,Queen VictoriaImage
+50,3,7,428,1207,Bamboo GroveSelfie-1
+50,3,8,452,1205,Family SculptureImage
+50,3,9,442,1207,Bull SculptureSelfie
+50,4,1,443,1204,Butterfly SculptureGPS
+50,4,2,428,1207,Bamboo GroveSelfie-1
+50,4,3,472,1205,Queen VictoriaImage
+50,4,4,491,1201,High Court of KarnatakaWord 1
+50,4,5,460,1217,High Court of KarnatakaJigsaw
+50,4,6,456,1205,Hand SculptureImage
+50,4,7,478,1218,Seshadri IyerMCQ
+50,4,8,448,1217,Chamarajendra WodeyarJigsaw
+50,4,9,442,1207,Bull SculptureSelfie
+50,5,1,488,1205,Tree SculptureImage
+50,5,2,478,1218,Seshadri IyerMCQ
+50,5,3,450,1217,Concrete Jungle SculptureJigsaw
+50,5,4,491,1201,High Court of KarnatakaWord 1
+50,5,5,460,1217,High Court of KarnatakaJigsaw
+50,5,6,472,1205,Queen VictoriaImage
+50,5,7,428,1207,Bamboo GroveSelfie-1
+50,5,8,443,1204,Butterfly SculptureGPS
+50,5,9,442,1207,Bull SculptureSelfie
+50,6,1,452,1205,Family SculptureImage
+50,6,2,440,1217,BandstandJigsaw
+50,6,3,466,1218,King Edward VIIMCQ 
+50,6,4,491,1201,High Court of KarnatakaWord 1
+50,6,5,483,1207,Sir Mark CubbonSelfie
+50,6,6,457,1217,Hand SculptureJigsaw
+50,6,7,476,1205,Seshadri IyerImage
+50,6,8,441,1204,Buildings SculptureGPS
+50,6,9,442,1207,Bull SculptureSelfie
+50,7,1,441,1204,Buildings SculptureGPS
+50,7,2,476,1205,Seshadri IyerImage
+50,7,3,457,1217,Hand SculptureJigsaw
+50,7,4,491,1201,High Court of KarnatakaWord 1
+50,7,5,461,1207,High Court of KarnatakaSelfie
+50,7,6,466,1218,King Edward VIIMCQ 
+50,7,7,440,1217,BandstandJigsaw
+50,7,8,451,1207,Corn SculptureSelfie
+50,7,9,474,1205,Rock GardenImage
+50,8,1,454,1205,Fish SculptureImage
+50,8,2,440,1217,BandstandJigsaw
+50,8,3,472,1205,Queen VictoriaImage
+50,8,4,491,1201,High Court of KarnatakaWord 1
+50,8,5,460,1217,High Court of KarnatakaJigsaw
+50,8,6,449,1205,Concrete Jungle SculptureImage
+50,8,7,478,1218,Seshadri IyerMCQ
+50,8,8,441,1204,Buildings SculptureGPS
+50,8,9,442,1207,Bull SculptureSelfie
+50,9,1,448,1217,Chamarajendra WodeyarJigsaw
+50,9,2,476,1205,Seshadri IyerImage
+50,9,3,457,1217,Hand SculptureJigsaw
+50,9,4,492,1201,High Court of KarnatakaWord 2
+50,9,5,459,1205,High Court of KarnatakaImage
+50,9,6,466,1218,King Edward VIIMCQ 
+50,9,7,429,1207,Bamboo GroveSelfie-2
+50,9,8,443,1204,Butterfly SculptureGPS
+50,9,9,442,1207,Bull SculptureSelfie
+50,10,1,487,1205,Tiger Pillar Sculpture Image
+50,10,2,440,1217,BandstandJigsaw
+50,10,3,472,1205,Queen VictoriaImage
+50,10,4,491,1201,High Court of KarnatakaWord 1
+50,10,5,460,1217,High Court of KarnatakaJigsaw
+50,10,6,449,1205,Concrete Jungle SculptureImage
+50,10,7,478,1218,Seshadri IyerMCQ
+50,10,8,441,1204,Buildings SculptureGPS
+50,10,9,442,1207,Bull SculptureSelfie
+50,11,1,488,1205,Tree SculptureImage
+50,11,2,478,1218,Seshadri IyerMCQ
+50,11,3,450,1217,Concrete Jungle SculptureJigsaw
+50,11,4,491,1201,High Court of KarnatakaWord 1
+50,11,5,460,1217,High Court of KarnatakaJigsaw
+50,11,6,472,1205,Queen VictoriaImage
+50,11,7,430,1204,Band standGPS-1,3
+50,11,8,451,1207,Corn SculptureSelfie
+50,11,9,474,1205,Rock GardenImage
+50,12,1,453,1218,Family SculptureMCQ
+50,12,2,428,1207,Bamboo GroveSelfie-1
+50,12,3,472,1205,Queen VictoriaImage
+50,12,4,492,1201,High Court of KarnatakaWord 2
+50,12,5,460,1217,High Court of KarnatakaJigsaw
+50,12,6,467,1205,Kirtimukha SculptureImage
+50,12,7,477,1204,Seshadri IyerGPS 
+50,12,8,448,1217,Chamarajendra WodeyarJigsaw
+50,12,9,474,1205,Rock GardenImage
+50,13,1,441,1204,Buildings SculptureGPS
+50,13,2,478,1218,Seshadri IyerMCQ
+50,13,3,446,1207,Chair SculptureSelfie
+50,13,4,491,1201,High Court of KarnatakaWord 1
+50,13,5,460,1217,High Court of KarnatakaJigsaw
+50,13,6,472,1205,Queen VictoriaImage
+50,13,7,440,1217,BandstandJigsaw
+50,13,8,451,1207,Corn SculptureSelfie
+50,13,9,474,1205,Rock GardenImage
+50,14,1,451,1207,Corn SculptureSelfie
+50,14,2,430,1204,Band standGPS-1,3
+50,14,3,472,1205,Queen VictoriaImage
+50,14,4,491,1201,High Court of KarnatakaWord 1
+50,14,5,460,1217,High Court of KarnatakaJigsaw
+50,14,6,449,1205,Concrete Jungle SculptureImage
+50,14,7,478,1218,Seshadri IyerMCQ
+50,14,8,448,1217,Chamarajendra WodeyarJigsaw
+50,14,9,442,1207,Bull SculptureSelfie
+50,15,1,448,1217,Chamarajendra WodeyarJigsaw
+50,15,2,478,1218,Seshadri IyerMCQ
+50,15,3,467,1205,Kirtimukha SculptureImage
+50,15,4,491,1201,High Court of KarnatakaWord 1
+50,15,5,460,1217,High Court of KarnatakaJigsaw
+50,15,6,464,1204,King Edward VIIGPS 1
+50,15,7,439,1205,BandstandImage
+50,15,8,451,1207,Corn SculptureSelfie
+50,15,9,474,1205,Rock GardenImage
+50,16,1,454,1205,Fish SculptureImage
+50,16,2,430,1204,Band standGPS-1,3
+50,16,3,472,1205,Queen VictoriaImage
+50,16,4,492,1201,High Court of KarnatakaWord 2
+50,16,5,481,1217,Sir Mark CubbonJigsaw
+50,16,6,485,1207,State Central LibrarySelfie 1
+50,16,7,478,1218,Seshadri IyerMCQ
+50,16,8,448,1217,Chamarajendra WodeyarJigsaw
+50,16,9,474,1205,Rock GardenImage
+50,17,1,488,1205,Tree SculptureImage
+50,17,2,478,1218,Seshadri IyerMCQ
+50,17,3,485,1207,State Central LibrarySelfie 1
+50,17,4,492,1201,High Court of KarnatakaWord 2
+50,17,5,460,1217,High Court of KarnatakaJigsaw
+50,17,6,465,1204,King Edward VIIGPS 2
+50,17,7,440,1217,BandstandJigsaw
+50,17,8,451,1207,Corn SculptureSelfie
+50,17,9,474,1205,Rock GardenImage
+50,18,1,487,1205,Tiger Pillar Sculpture Image
+50,18,2,431,1207,Band StandSelfie
+50,18,3,472,1205,Queen VictoriaImage
+50,18,4,491,1201,High Court of KarnatakaWord 1
+50,18,5,460,1217,High Court of KarnatakaJigsaw
+50,18,6,484,1204,State Central LibraryGPS
+50,18,7,478,1218,Seshadri IyerMCQ
+50,18,8,448,1217,Chamarajendra WodeyarJigsaw
+50,18,9,442,1207,Bull SculptureSelfie
+50,19,1,448,1217,Chamarajendra WodeyarJigsaw
+50,19,2,478,1218,Seshadri IyerMCQ
+50,19,3,462,1205,Indigenous Woman SculptureImage
+50,19,4,491,1201,High Court of KarnatakaWord 1
+50,19,5,481,1217,Sir Mark CubbonJigsaw
+50,19,6,471,1204,Queen VictoriaGPS
+50,19,7,439,1205,BandstandImage
+50,19,8,451,1207,Corn SculptureSelfie
+50,19,9,474,1205,Rock GardenImage
+50,20,1,487,1205,Tiger Pillar Sculpture Image
+50,20,2,431,1207,Band StandSelfie
+50,20,3,472,1205,Queen VictoriaImage
+50,20,4,492,1201,High Court of KarnatakaWord 2
+50,20,5,458,1204,High Court of KarnatakaGPS
+50,20,6,469,1217,Mushroom SculptureJigsaw 1
+50,20,7,478,1218,Seshadri IyerMCQ
+50,20,8,448,1217,Chamarajendra WodeyarJigsaw
+50,20,9,442,1207,Bull SculptureSelfie

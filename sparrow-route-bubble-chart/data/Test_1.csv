@@ -1,0 +1,51 @@
+TH_ID,TH_ROUTE_ID,ROUTE_NODE_SEQ,CLUE_ACT_GRP_ID,ACT_TYPE_CODE_ID,GRP_DESC
+15,1,1,496,,Veena Stores Word 
+50,1,1,441,1204,Buildings SculptureGPS
+50,1,2,478,1218,Seshadri IyerMCQ
+50,1,3,450,1217,Concrete Jungle SculptureJigsaw
+50,1,4,491,1201,High Court of KarnatakaWord 1
+50,1,5,460,1217,High Court of KarnatakaJigsaw
+50,1,6,472,1205,Queen VictoriaImage
+50,1,7,428,1207,Bamboo GroveSelfie-1
+50,1,8,452,1205,Family SculptureImage
+50,1,9,442,1207,Bull SculptureSelfie
+
+50,2,1,451,1207,Corn SculptureSelfie
+50,2,2,440,1217,BandstandJigsaw
+50,2,3,472,1205,Queen VictoriaImage
+50,2,4,491,1201,High Court of KarnatakaWord 1
+50,2,5,460,1217,High Court of KarnatakaJigsaw
+50,2,6,449,1205,Concrete Jungle SculptureImage
+50,2,7,478,1218,Seshadri IyerMCQ
+50,2,8,441,1204,Buildings SculptureGPS
+50,2,9,442,1207,Bull SculptureSelfie
+
+50,3,1,447,1204,Chamarajendra WodeyarGPS
+50,3,2,478,1218,Seshadri IyerMCQ
+50,3,3,450,1217,Concrete Jungle SculptureJigsaw
+50,3,4,491,1201,High Court of KarnatakaWord 1
+50,3,5,460,1217,High Court of KarnatakaJigsaw
+50,3,6,472,1205,Queen VictoriaImage
+50,3,7,428,1207,Bamboo GroveSelfie-1
+50,3,8,452,1205,Family SculptureImage
+50,3,9,442,1207,Bull SculptureSelfie
+
+50,4,1,443,1204,Butterfly SculptureGPS
+50,4,2,428,1207,Bamboo GroveSelfie-1
+50,4,3,472,1205,Queen VictoriaImage
+50,4,4,491,1201,High Court of KarnatakaWord 1
+50,4,5,460,1217,High Court of KarnatakaJigsaw
+50,4,6,456,1205,Hand SculptureImage
+50,4,7,478,1218,Seshadri IyerMCQ
+50,4,8,448,1217,Chamarajendra WodeyarJigsaw
+50,4,9,442,1207,Bull SculptureSelfie
+
+50,5,1,488,1205,Tree SculptureImage
+50,5,2,478,1218,Seshadri IyerMCQ
+50,5,3,450,1217,Concrete Jungle SculptureJigsaw
+50,5,4,491,1201,High Court of KarnatakaWord 1
+50,5,5,460,1217,High Court of KarnatakaJigsaw
+50,5,6,472,1205,Queen VictoriaImage
+50,5,7,428,1207,Bamboo GroveSelfie-1
+50,5,8,443,1204,Butterfly SculptureGPS
+50,5,9,442,1207,Bull SculptureSelfie
