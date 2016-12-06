@@ -102,7 +102,7 @@
 		      .attr("id", function(d) { return d.id; })
 		      .attr("r", function(d) { return d.r; })
 		      .style("fill", function(d) { 
-		      	return color(d.data.GRP_DESC); 
+		      	return color(d.data.value); 
 		      });
 
 		  node.append("clipPath")
